@@ -17,7 +17,7 @@
     
     
       
-        <title>Board - UTEDocs</title>
+        <title>战斗框 - UTEDocs</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#battle_getboardsurface" class="md-skip">
+        <a href="#_1" class="md-skip">
           Skip to content
         </a>
       
@@ -97,7 +97,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Board
+              战斗框
             
           </span>
         </div>
@@ -447,14 +447,14 @@
       
       
         <label class="md-nav__link" for="__nav_3_1">
-          Battle
+          战斗
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Battle" data-md-level="2">
+      <nav class="md-nav" aria-label="战斗" data-md-level="2">
         <label class="md-nav__title" for="__nav_3_1">
           <span class="md-nav__icon md-icon"></span>
-          Battle
+          战斗
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -470,14 +470,16 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Board
+          战斗框
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Board
+        战斗框
       </a>
       
         
@@ -485,6 +487,8 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
+  
+    
   
   
     <label class="md-nav__title" for="__toc">
@@ -507,6 +511,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#battle_setboardsizeupdownleftrighttime" class="md-nav__link">
+    Battle_SetBoardSize(up,down,left,right,time*)
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -523,7 +534,7 @@
   
     <li class="md-nav__item">
       <a href="../Bullet/" class="md-nav__link">
-        Bullet
+        攻击
       </a>
     </li>
   
@@ -537,7 +548,7 @@
   
     <li class="md-nav__item">
       <a href="../Dialog/" class="md-nav__link">
-        Dialog
+        对话框
       </a>
     </li>
   
@@ -551,7 +562,7 @@
   
     <li class="md-nav__item">
       <a href="../Enemy/" class="md-nav__link">
-        Enemy
+        怪物
       </a>
     </li>
   
@@ -648,8 +659,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../%E5%85%B6%E4%BB%96%E5%87%BD%E6%95%B0/" class="md-nav__link">
-        其他函数
+      <a href="../Other/" class="md-nav__link">
+        扩展
       </a>
     </li>
   
@@ -668,71 +679,10 @@
   
   
   
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
-      
-      
-      
-      
-        <label class="md-nav__link" for="__nav_3_2">
-          Player
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" aria-label="Player" data-md-level="2">
-        <label class="md-nav__title" for="__nav_3_2">
-          <span class="md-nav__icon md-icon"></span>
-          Player
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
     <li class="md-nav__item">
-      <a href="../../Player/LV%E6%93%8D%E4%BD%9C%E5%91%BD%E4%BB%A4/" class="md-nav__link">
-        LV操作命令
+      <a href="../../Player/" class="md-nav__link">
+        玩家
       </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../Player/%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/" class="md-nav__link">
-        基础命令
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../Player/%E7%8E%A9%E5%AE%B6%E5%B1%9E%E6%80%A7%E6%93%8D%E4%BD%9C%E5%91%BD%E4%BB%A4/" class="md-nav__link">
-        玩家属性操作命令
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
     </li>
   
 
@@ -1160,6 +1110,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1181,6 +1133,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#battle_setboardsizeupdownleftrighttime" class="md-nav__link">
+    Battle_SetBoardSize(up,down,left,right,time*)
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1195,18 +1154,24 @@
                 
 
 
-  <h1>Board</h1>
-
+<h1 id="_1">战斗框</h1>
 <h3 id="battle_getboardsurface">Battle_GetBoardSurface()</h3>
 <ul>
 <li>获取战斗框的Surface(表面)</li>
-<li>返回值-Surface索引</li>
+<li>返回值:Surface索引</li>
 </ul>
 <h3 id="battle_isboardtransforming">Battle_IsBoardTransforming()</h3>
 <ul>
 <li>该命令可以检测战斗框的框即坐标有没有变动</li>
 <li>该命令只有在使用Anim插件移动时生效</li>
-<li>返回值-如果战斗框的大小和xy坐标都没有变动则返回false,否则返回true</li>
+<li>返回值:如果战斗框的大小和xy坐标都没有变动则返回false,否则返回true</li>
+</ul>
+<h3 id="battle_setboardsizeupdownleftrighttime">Battle_SetBoardSize(up,down,left,right,time*)</h3>
+<ul>
+<li>设置战斗框大小</li>
+<li>up上,down下,left左,right右，单位为像素</li>
+<li>time为战斗框变化所需要的时间，默认为25，单位为帧</li>
+<li>返回值:恒定为true</li>
 </ul>
 
               
@@ -1237,13 +1202,13 @@
       
       
         
-        <a href="../Bullet/" class="md-footer__link md-footer__link--next" aria-label="Next: Bullet" rel="next">
+        <a href="../Bullet/" class="md-footer__link md-footer__link--next" aria-label="Next: 攻击" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Bullet
+              攻击
             </div>
           </div>
           <div class="md-footer__button md-icon">
