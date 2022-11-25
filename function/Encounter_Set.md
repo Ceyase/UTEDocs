@@ -23,7 +23,7 @@ Encounter_Set(id, enemy_0, enemy_1, enemy_2, menu_dialog, bgm*, flee_enabled*, p
 | soul_x* | Real | 遭遇动画中灵魂最终移动到的x位置 |
 | soul_y* | Real | 遭遇动画中灵魂最终移动到的y位置 |
 
-## Returns
+## 返回值
 Boolean
 
 ## 例子
