@@ -17,7 +17,7 @@ Undertale Engine：[点此下载](https://github.com/TML233/UndertaleEngine/arch
 
 如果你喜欢这个项目，请在[GameJolt](https://gamejolt.com/games/undertale_engine/378055)上给它加星并关注它!
 
-## UTWDocs 是什么？
+## UTEDocs 是什么？
 
 本文档致力于整理UTE及其分支的函数文档，该文档由社区维护。
 
