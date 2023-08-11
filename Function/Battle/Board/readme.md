@@ -1,5 +1,5 @@
-# 01-Board系列函数
-### //注释：[]内为必填,{}内为选填
+# Board 系列函数
+
 ### Battle_GetBoardSurface()
   - 获取战斗框的Surface(表面)
   - 返回值-Surface索引

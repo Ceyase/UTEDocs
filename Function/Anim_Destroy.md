@@ -22,7 +22,7 @@ true 为成功，false 为失败。
 
 ## 例子
 ```gml
-Anim_Create(target, "x", true);
+Anim_Destroy(target, "x", true);
 ```
 
 假如之前我们创建了一个缓动进程，内容是让target的x变量缓动。
