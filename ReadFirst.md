@@ -169,7 +169,3 @@ UNDERTALE Engine 于 2019 年 5 月被废弃。
 - Starlightshore:
 
     2021 年编写了大部分文档。
-
-- 天机Ceyase:
-
-    你现在看到的中文文档的翻译，制作了控制台修复补丁。
