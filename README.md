@@ -23,7 +23,7 @@ Undertale Engine：[点此下载](https://github.com/TML233/UndertaleEngine/arch
 
 ## 如何进行贡献？
 
-1.克隆本项目 https://github.com/Ceyase/UTEDocs
+1.克隆本项目 https://github.com/Ceyase/UTEDocs。仓库链接详见右上角。
 
 2.创建Markdown文件
 
